@@ -20,8 +20,10 @@
     <!-- My Home section -->
     <section id="home">
         <div class="main">
-            <h1 class="headings">Hi There, <br> I'm FRANCIS DOWUONA <br>And I am <span><a href="https://www.freelancermap.com/blog/what-does-gis-developer-do/">GIS Developer</a></span></h1>
-            <button class="btn">Get in Touch</button>
+            <h1 class="headings">Hi There, <br> I'm FRANCIS DOWUONA <br>And I am <a href="https://www.freelancermap.com/blog/what-does-gis-developer-do/"><span>GIS Developer</span></a></h1>
+            <div class="btn">
+                <a href="#contact">Get In Touch</a>
+            </div>
         </div>
     </section>
 
@@ -38,9 +40,10 @@
                     with diverse cultural background and beliefs. I specialize in the development of 
                     software applications for spatial data management and analysis.
                 </P>
-                <div>
-                    <a href="https://www.facebook.com/dowuona1"><img class="social" src="Images/fb.png" alt=""></a> 
-                    <a href="https://www.linkedin.com/in/francis-dowuona-818128a1/"><img class="social" src="Images/link.png" alt=""></a>
+                <div id="iframe-conatiner">
+                    <iframe width="480" height="315"
+                    src="https://www.youtube.com/embed/E3tC0wWLy6E?mute=0&controls=1">
+                    </iframe> 
                 </div>
             </div>
         </div>
@@ -52,26 +55,38 @@
             <div class="title">
                 <h3>GeoCoordTrans</h3>
                 <img src="Images/geo.PNG" alt="">
+                <p>Coordinate conversion application for converting coordinates <br> in Ghana.
+                Download <a href="https://github.com/francis759/GeoCoordTrans.git">project</a> from github</p>
             </div>
             <div class="title">
                 <h3>Age calculator</h3>
                 <img src="Images/ageCalc.PNG" alt="">
+                <p>Web application for computing age of user in terms of years <br> months and weeks.
+                    Download <a href="https://github.com/francis759/Age-Calculator.git">project</a> from github</p>
             </div>
             <div class="title">
                 <h3>Pricing table</h3>
                 <img src="Images/pricing1.png" alt="">
+                <p>A pricing table template for cloud service provided by an <br>imaginary service proivider.
+                    Download <a href="https://github.com/francis759/Pricing_table.git">project</a> from github</p>
             </div>
             <div class="title">
                 <h3>POS system</h3>
                 <img src="Images/fast.PNG" alt="">
+                <p>Point of sale system developed with c# windows form application<br> and styled with bunifu.
+                    Download <a href="https://github.com/francis759/FastFoodDemo.git">project</a> from github</p>
             </div>
             <div class="title">
                 <h3>Playtube</h3>
                 <img src="Images/play.PNG" alt="">
+                <p>A replica of media website for videos and music <br>
+                    Download <a href="https://github.com/francis759/Media_website.git">project</a> from github</p>
             </div>
             <div class="title">
                 <h3>Tetris game</h3>
                 <img src="Images/tetris.PNG" alt="">
+                <p>A simple web based tetris game.<br>
+                    Download <a href="https://github.com/francis759/Spyda-Tetris.git">project</a> from github</p>
             </div>
         </div>
     </section>
@@ -133,12 +148,28 @@
     </section>
     <section id="contact">
         <h1 class="headings">Contact</h1>
-        <form action="" class="form">
-            <input type="text" name="name" class="input" placeholder="Your name">
-            <input type="text" name="email" class="input" placeholder="Your email">
-            <textarea name="msg" id=""  placeholder="Message"></textarea>
-            <input type="submit" value="Send" id="send">
-        </form>
+        <div class="content">
+            <div class="holder1">
+                <div class="contact-box">
+                    <div class="image-holder"><img src="Images/loc.png" alt=""></div>
+                    <div class="text-holder">Sam Jonah Estate, Hse d12</div>
+                </div>
+                <div class="contact-box">
+                    <div class="image-holder"><img src="Images/mail.png" alt=""></div>
+                    <div class="text-holder">francis.dowuona@amalitech.org</div>
+                </div>
+                <div class="contact-box">
+                    <div class="image-holder"><img src="Images/phone.png" alt=""></div>
+                    <div class="text-holder">+233 987 6543</div>
+                </div>
+            </div>
+             <form action="" class="form">
+                <input type="text" name="name" class="input" placeholder="Your name">
+                <input type="text" name="email" class="input" placeholder="Your email">
+                <textarea name="msg" id=""  placeholder="Message"></textarea>
+                <input type="submit" value="Send" id="send">
+            </form>
+        </div>
     </section>
 </body>
 </html>
