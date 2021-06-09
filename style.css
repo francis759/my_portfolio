@@ -214,8 +214,8 @@ html{
     justify-content: center;
 }
 .contact-box{
-    position: relative;
-    display: flex;
+   border: 1px solid red;
+   display: flex;
    align-content: center;
    align-items: center;
 }
@@ -230,17 +230,28 @@ html{
     align-items: center;
     border-radius: 25px;
 }
+.social-media-handles img{
+    width: 35px;
+    height: 35px;
+}
 .form{
+    border: 1px solid blue;
     display:flex;
+    width: 300px;
     flex-direction: column;
     box-sizing: border-box;
     align-items: center;
     margin: 20px 10px;
 }
+.form input{
+    width: 100%;
+    /* height: 20px; */
+}
 #msg{
-    margin: 15px;
+    margin: auto 15px;
     border: none;
     outline: none;
+
 }
 .input{
     padding: 12px;
