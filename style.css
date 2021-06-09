@@ -232,6 +232,7 @@ html{
     border-radius: 25px;
 }
 .social-media-handles{
+    margin-top: 5px;
     padding-left: 15px;
 }
 .social-media-handles img{
