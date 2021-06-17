@@ -108,8 +108,7 @@ html{
     display: flex;
 }
 #pic img{
-    width: 550px;
-    height: 450px;
+    margin: 10px auto;
 }
 #intro{
     display: flex;
@@ -289,14 +288,13 @@ html{
         align-items: center;
     }
     #pic img{
-        width: 400px;
-        height: 300px;
+        width: 100%;
     }
     #intro h2{
         text-align: center;
     }
     #iframe-conatiner iframe{
-        width: 380px;
+        width: 100%;
     }
     .content{
         flex-direction: column;
