@@ -304,6 +304,10 @@ html{
     }
     .navbar ul{
         flex-wrap: wrap;
-        /* justify-content: center; */
+        justify-content: center;
+        
+    }
+    .navbar ul li{
+        margin: 2px;
     }
   }
